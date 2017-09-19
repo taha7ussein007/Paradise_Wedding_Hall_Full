@@ -1,0 +1,181 @@
+<html lang="en" class="no-js">
+ <head>
+        <meta charset="UTF-8" />
+        <title>Login and Registration - Paradise Wedding Hall</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../core/Paradise_ico.png">
+        <link rel="stylesheet" type="text/css" href="../core/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="../core/css/style2.css" />
+        <link rel="stylesheet" type="text/css" href="../core/css/animate-custom.css" />
+        <link rel="stylesheet" type="text/css" href="../core/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../core/css/ie7.css">   
+        <!-- Start Slider HEAD section -->
+        <link rel="stylesheet" type="text/css" href="../core/engine1/style.css" />
+        <script type="text/javascript" src="../core/engine1/jquery.js"></script>
+        <!-- End Slider HEAD section -->
+ </head>
+    
+    <body>
+        
+      	<div id="header">
+		<div>
+			<a href="index.php"><img src="../core/images/logo.png" alt="Image"></a>
+			<ul>
+				<li>
+					<a href="index.php">Home</a>
+				</li>
+				<li>
+					<a href="about.php">About</a>
+				</li>
+				<li>
+					<a href="gallery.php">Gallery</a>
+				</li>
+				<li>
+					<a href="blog.php">Blog</a>
+				</li>
+				<li>
+					<a href="contact.php">Contact</a>
+				</li>
+                                <li class="current">
+					<a href="login.php">Login Now!</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+        
+
+        <div id="figure"><br>
+            <!-- Start Slider BODY section -->
+            <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li><img src="../core/data1/images/wedding.png" alt="" title="" id="wows1_0"/></li>
+                    <li><img src="../core/data1/images/wedding1.png" alt="wedding1" title="wedding1" id="wows1_1"/></li>
+                    <li><img src="../core/data1/images/wedding2.png" alt="wedding2" title="wedding2" id="wows1_2"/></li>
+                    <li><img src="../core/data1/images/wedding3.png" alt="wedding3" title="wedding3" id="wows1_3"/></li>
+                    <li><img src="../core/data1/images/wedding4.png" alt="wedding4" title="wedding4" id="wows1_4"/></li>
+                    <li><img src="../core/data1/images/wedding5.png" alt="wedding5" title="wedding5" id="wows1_5"/></li>
+                    <li><img src="../core/data1/images/wedding6.png" alt="wedding6" title="wedding6" id="wows1_6"/></li>
+                </ul>
+            </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="wedding"><span><img src="../core/data1/tooltips/wedding.png" alt=""/>1</span></a>
+                            <a href="#" title="wedding1"><span><img src="../core/data1/tooltips/wedding1.png" alt="wedding1"/>2</span></a>
+                            <a href="#" title="wedding2"><span><img src="../core/data1/tooltips/wedding2.png" alt="wedding2"/>3</span></a>
+                            <a href="#" title="wedding3"><span><img src="../core/data1/tooltips/wedding3.png" alt="wedding3"/>4</span></a>
+                            <a href="#" title="wedding4"><span><img src="../core/data1/tooltips/wedding4.png" alt="wedding4"/>5</span></a>
+                            <a href="#" title="wedding5"><span><img src="../core/data1/tooltips/wedding5.png" alt="wedding5"/>6</span></a>
+                            <a href="#" title="wedding6"><span><img src="../core/data1/tooltips/wedding6.png" alt="wedding6"/>7</span></a>
+                       </div>
+                    </div>
+            </div>	
+            <script type="text/javascript" src="../core/engine1/wowslider.js"></script>
+            <script type="text/javascript" src="../core/engine1/script.js"></script>
+            <!-- End Slider BODY section -->
+        </div>
+        
+        
+       
+        <br><br>
+<div class="container">
+            <header>
+                <h1>Login and Registration Form  </h1>
+	    </header>
+            <section>				
+                <div id="container_demo" >
+                   
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                           <form name="login" method="post" action="">
+                                <h1>Log in</h1> 
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" >Your Email</label>
+                                    <input id="emailsignup" name="email" required="required" type="email" placeholder="mymail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p">Your Password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" name="login" value="Login" /> 
+								</p>
+                                <p class="change_link">
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Join us</a>
+								</p>
+                            </form>
+                        </div>
+
+                        <div id="register" class="animate form">
+                            <form name="login" method="post" action="">
+                                <h1> Sign up </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Your Full_Name</label>
+                                    <input id="usernamesignup" name="name" required="required" type="text" placeholder="Ahmed Ashraf Hussein" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Your Email</label>
+                                    <input id="emailsignup" name="email" required="required" type="email" placeholder="mymail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your Password </label>
+                                    <input id="passwordsignup" name="password" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please Confirm_Password </label>
+                                    <input id="passwordsignup_confirm" name="confirm_password" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="national_id_signup" class="youid" data-icon="►">Your National_ID</label>
+                                    <input id="national_id_signup" name="n_id" required="required" type="id" placeholder="eg. 29001011234567"/>
+                                </p>
+                                <p> 
+                                    <label for="mob_no_signup" class="youmob" data-icon="►">Your Mobile_Number</label>
+                                    <input id="mob_no_signup" name="mob_no" required="required" type="mobile" placeholder="eg. 01234567891"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" name="register" value="Sign up"/> 
+								</p>
+                                <p class="change_link">  
+									Already a member ?
+									<a href="#tologin" class="to_register"> Go and log in </a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+        
+               
+	<div id="footer">
+		<ul>
+			<li>
+				<a href="blog.php">Blog</a>
+			</li>
+			<li>
+				<a href="studio.php">Studio</a>
+			</li>
+			<li>
+                                <a href="../User/booking.php">Bookings</a>
+			</li>
+			<li>
+				<a href="photographers.php">Photographers</a>
+			</li>
+		</ul>
+		<p>All Rights Reserved &copy; CSweepers Team</p>
+	</div>
+
+    </body>
+</html>
