@@ -4,9 +4,8 @@ Taha Hussein
 Mahmoud Hamed
 Abd el Rahman Hamdy
 
-Screen Shots from the website 
+#Screen Shots from the website 
 ![alt text](https://github.com/taha7ussein007/Paradise_Wedding_Hall_Full/tree/master/ScrShots/1.PNG)
-2
 ![alt text](https://github.com/taha7ussein007/Paradise_Wedding_Hall_Full/tree/master/ScrShots/2.PNG)
 ![alt text](https://github.com/taha7ussein007/Paradise_Wedding_Hall_Full/tree/master/ScrShots/3.PNG)
 ![alt text](https://github.com/taha7ussein007/Paradise_Wedding_Hall_Full/tree/master/ScrShots/4.PNG)
